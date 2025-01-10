@@ -3,9 +3,11 @@
     padding: 0;
 }
 .navbar{
+    width: 80%;
+    background-color: white;
     display: flex;
-    justify-content: space-around;
-    margin: 32px;
+    justify-content: space-between;
+    margin: 32px auto;
 }
 .nav-name{
     font-weight: 800px;
@@ -15,4 +17,96 @@
     padding: 15px 30px;
     border-radius: 10px;
     border-color: #006A50;
+    margin: ;
+}
+.banner{
+    width: 80%;
+    margin: 0 auto;
+    padding: 117px 0;
+    border-radius: 15px;
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: space-around;
+}
+.ban-name{
+    font-size: 24px;
+    font-weight: 500;
+    color: #525151;
+    font-weight: bold;
+}
+.paragraph{
+    color: #0E0E0E;
+    font-size: 56px;
+    margin-top: 16px;
+}
+.btn{
+   color: #FFFFFF;
+   background-color: #006A50;
+   padding: 15px 30px;
+   border-radius: 10px;
+   margin-top: 24px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+#body{
+    width: 80%;
+    background-color: white;
+    margin: 80px auto;
+}
+.body .header{
+    width: 80%;
+    background-color:white;
+    margin: 0 auto;
+}
+.header-name{
+    color: #0E0E0E;
+    font-size: 40px;
+}
+.head-pragraph{
+    color: #474747;
+    font-size: 16px;
+    margin-top: 24px;
+}
+.body-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.card{
+    text-align: justify;
+    width: 410px;
+    padding: 32px;
+    border-radius: 17px;
+}
+.main-body-name{
+    color: #2a2a2a;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 24px;
+}
+.main-body-paragraph{
+    color: #606060;
+    font-size: 16px;
+    margin-top: 12px;
+}
+.main-body-btn{
+    color: #FFFFFF;
+    background-color: #6da1fa;
+    padding: 10px 20px;
+    border: 0 solid tomato;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+.main-body-1{
+    background-color: #bed1f0;
+}
+.main-body-2{
+    background-color: #C6E4D6;
+}
+.main-body-3{
+    background-color: #F7EBCF;
 }
