@@ -1,0 +1,18 @@
+*{
+    margin: 1px;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin: 32px;
+}
+.nav-name{
+    font-weight: 800px;
+}
+.navbar .button{
+    color: #006A50;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border-color: #006A50;
+}
