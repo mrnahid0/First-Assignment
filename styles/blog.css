@@ -4,7 +4,6 @@
 }
 .navbar{
     width: 80%;
-    background-color: white;
     display: flex;
     justify-content: space-between;
     margin: 32px auto;
@@ -54,12 +53,10 @@
 }
 #body{
     width: 80%;
-    background-color: white;
     margin: 80px auto;
 }
 .body .header{
     width: 80%;
-    background-color:white;
     margin: 0 auto;
 }
 .header-name{
@@ -112,7 +109,8 @@
 }
 .second-body-container{
     width: 100%;
-    background-color: white;
+    background-color: hsl(0, 17%, 98%);
+    border-radius: 10px;
     margin-top: 32px;
 }
 .second-body-paragraph{
@@ -132,4 +130,66 @@
     font-size: 16px;
     padding: 0px 24px;
     color: #474747;
+}
+.second-body{
+    width: 80%;
+    margin: 80px auto;
+}
+.second-name{
+    font-weight: bold;
+    font-size: 40px;
+}
+.second-paragraph{
+    color: #4f4f4f;
+    margin-top: 24px;
+}
+.world{
+    display: flex;
+    margin-top: 32px;
+    background-color: hwb(0 98% 0%);
+    padding: 56px 48px;
+    border-radius: 17px;
+    border: 1px solid none;
+}
+.world-photo{
+   margin: 0 32px;
+
+}
+.world-heading{
+    color: #0E0E0E;
+    font-weight: 800px;
+    font-size: 32px;
+}
+.logo{
+    margin-top: 12px;
+}
+.date{
+    color: #0E0E0E;
+    font-size: 16px;
+    margin: 12px 12px 12px 0;
+}
+.time{
+    color: #0E0E0E;
+    gap: 12;
+}
+.world-paragraph{
+    color: #252525;
+    font-size: 16px;
+    margin-top: 12px;
+}
+.world-btn{
+    color: #FFFFFF;
+    background-color: #006A50;
+    border-radius: 10px;
+    padding: 13px 26px;
+    margin-top: 32px;
+    border:0 solid tomato;
+}
+.world-2{
+   display: flex;
+margin-top: 32px;
+background-color: hwb(0 98% 0%);
+padding: 56px 48px;
+border-radius: 17px;
+border: 1px solid none;
 }
