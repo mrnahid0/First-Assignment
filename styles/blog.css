@@ -177,13 +177,14 @@
     font-size: 16px;
     margin-top: 12px;
 }
-.world-btn{
+.world-btn,.footer-button,.sub{
     color: #FFFFFF;
     background-color: #006A50;
     border-radius: 10px;
     padding: 13px 26px;
     margin-top: 32px;
     border:0 solid tomato;
+    margin-bottom: 80px;
 }
 .world-2{
    display: flex;
@@ -192,4 +193,69 @@ background-color: hwb(0 98% 0%);
 padding: 56px 48px;
 border-radius: 17px;
 border: 1px solid none;
+}
+.donate,.card{
+    width: 80%;
+    margin: 0 auto;
+}
+.donate-conainer,.card{
+    text-align: center;
+}
+.donate-heading{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+}
+.donate-paragraph{
+    color: #313131;
+    font-size: 16px;
+    margin-top: 24px;
+}
+.card{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 104px;
+}
+.card-1,.card-2,.card-3,.card-4{
+    font-size: 40px;
+    font-weight: bold;
+      background-color: rgb(246, 242, 242);
+      box-sizing: content-box;
+      padding: 40px 40px;
+      margin-top: 24px;
+      gap: 24;
+}
+.card-2{
+    background-color: #C6E4D6;
+}
+.box{
+    width: 67%;
+    height: 50px;
+}
+.newsletter{
+    width: 100%;
+    height: 395px;
+    background-color: #C6E4D6;
+    margin: 0 auto;
+    text-align: center;
+}
+.newsletter-heading{
+    font-size: 40px;
+    font-weight: 700;
+   margin-top: 16px;
+}
+.newsletter-paragraph{
+    color: #333333;
+    font-size: 16px;
+    margin-top: 24px;
+}
+.email{
+    width: 67%;
+height: 55px;
+margin-top: 16px;
+}
+.fot{
+    font-size: 16px;
+    margin-top: 10px;
 }
