@@ -94,7 +94,7 @@
     margin-top: 12px;
 }
 .main-body-btn{
-    color: #FFFFFF;
+    color: #c8c7c7;
     background-color: #6da1fa;
     padding: 10px 20px;
     border: 0 solid tomato;
@@ -109,4 +109,27 @@
 }
 .main-body-3{
     background-color: #F7EBCF;
+}
+.second-body-container{
+    width: 100%;
+    background-color: white;
+    margin-top: 32px;
+}
+.second-body-paragraph{
+    background-image:url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    padding: 25px 24px 12px 24px;
+    background-position-x: left;
+    color: #444444;
+    font-size: 16px;
+}
+.name{
+    color: #0c0c0c;
+    font-weight: bold;
+    padding: 0 24px;
+}
+.footer{
+    font-size: 16px;
+    padding: 0px 24px;
+    color: #474747;
 }
